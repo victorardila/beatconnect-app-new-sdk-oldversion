@@ -48,8 +48,13 @@ Después de los cambios, la estructura del repositorio es más clara y se ajusta
 ├── assets/
 ├── ios/
 ├── lib/
+├── macos/
 ├── test/
-├── pubspec.yaml
-├── README.md
+├── web/
+├── windows/
+├── .gitattributes
 ├── .gitignore
+├── analysis_options.yaml
+├── pubspect.yaml
+├── README.md
 ```
