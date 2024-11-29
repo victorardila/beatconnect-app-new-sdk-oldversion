@@ -58,3 +58,11 @@ Después de los cambios, la estructura del repositorio es más clara y se ajusta
 ├── pubspect.yaml
 ├── README.md
 ```
+
+## Dependencias adicionales para correr el proyecto
+
+Para garantizar que la aplicación funcione correctamente en sistemas Linux, fue necesario instalar la dependencia win32. Esto se realiza ejecutando el siguiente comando en el terminal:
+
+```bash
+flutter pub add win32
+```
