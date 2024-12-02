@@ -48,7 +48,7 @@ Estos archivos y carpetas fueron eliminados para:
 - Mantener una estructura limpia y organizada: La presencia de estos elementos podría generar confusión, ya que no son parte de la configuración estándar de Flutter.
 - Evitar conflictos innecesarios: Al simplificar el contenido del repositorio, se reduce el riesgo de errores o malentendidos durante el desarrollo y la colaboración.
 
-## Estructura del repositorio actual
+## Estructura del repositorio corregida y migrada
 
 Después de los cambios, la estructura del repositorio es más clara y se ajusta al estándar de proyectos Flutter:
 
@@ -67,6 +67,36 @@ Después de los cambios, la estructura del repositorio es más clara y se ajusta
 ├── analysis_options.yaml
 ├── pubspect.yaml
 ├── README.md
+```
+
+## Estructura del repositorio antiguo
+
+Estructura del proyecto poco clara y no funcional:
+
+```text
+/
+├── .metadata
+├── analysis_options.yaml
+├── android/
+├── assets/
+├── build.gradle
+├── flutter_launcher_icons.yaml
+├── flutter_native_splash.yaml
+├── gradle
+├── gradlew
+├── gradlew.bat
+├── ios/
+├── lib/
+├── macos/
+├── test/
+├── web/
+├── windows/
+├── .gitattributes
+├── .gitignore
+├── analysis_options.yaml
+├── pubspect.yaml
+├── README.md
+├── settings.gradle
 ```
 
 ## Dependencias adicionales para correr el proyecto
