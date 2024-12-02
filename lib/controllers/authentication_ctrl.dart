@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 
 class AuthenticationCtrl extends GetxController {
   final FirebaseApp _app;

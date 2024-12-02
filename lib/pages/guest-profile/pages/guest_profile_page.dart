@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 
 class GuestProfilePage extends StatelessWidget {
   final DocumentSnapshot<Map<String, dynamic>> guest;

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 
 abstract class SearchPlacesServices {
   static Future<List<Place>> searchPlaces({

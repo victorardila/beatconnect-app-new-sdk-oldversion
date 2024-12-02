@@ -1,5 +1,5 @@
 import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

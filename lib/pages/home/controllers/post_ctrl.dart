@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
 import 'package:get/get.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 
 class CreatePostCtrl extends GetxController {
   final FirebaseApp _app;

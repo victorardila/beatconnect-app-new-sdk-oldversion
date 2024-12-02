@@ -16,7 +16,7 @@ import flutter_secure_storage_macos
 import flutter_web_auth_2
 import geolocator_apple
 import path_provider_foundation
-import sqflite
+import sqflite_darwin
 import url_launcher_macos
 import window_to_front
 

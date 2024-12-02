@@ -1,5 +1,5 @@
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:music_concept_app/lib.dart';
+import 'package:beatconnect_new_sdk_older_version/lib.dart';
 
 class FirebaseStorageService {
   static const String storagePath = AppDefaults.firebaseStorageBucket;

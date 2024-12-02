@@ -1,6 +1,6 @@
 {
-    "name": "music_concept_app",
-    "short_name": "music_concept_app",
+    "name": "beatconnect_new_sdk_older_version",
+    "short_name": "beatconnect_new_sdk_older_version",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
