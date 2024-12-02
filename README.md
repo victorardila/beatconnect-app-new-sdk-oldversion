@@ -2,11 +2,15 @@
 
 Aplicacion red social para conectar usaurios con la misma preferncia musical para parchear en establecimientos publicos de musica nocturna
 
-![logo](https://github.com/user-attachments/assets/33d03376-f4b0-4655-a650-2d0aed790f76)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33d03376-f4b0-4655-a650-2d0aed790f76" alt="logo" width="500"/>
+</p>
 
 ## Stack de Tecologia
 
-![flutter firebase](https://github.com/user-attachments/assets/270667a7-40ad-4267-9d33-478aca7e2bbf)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/270667a7-40ad-4267-9d33-478aca7e2bbf" alt="flutter firebase" width="500"/>
+</p>
 
 ## Primeros pasos
 
