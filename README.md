@@ -1,4 +1,4 @@
-# Nuevo SDK de BeatConnect Versión anterior
+# Nuevo SDK de BeatConnect Versión `Antigua`
 
 Aplicacion red social para conectar usaurios con la misma preferncia musical para parchear en establecimientos publicos de musica nocturna
 
