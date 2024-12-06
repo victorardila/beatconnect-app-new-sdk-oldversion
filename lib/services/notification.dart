@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 abstract class NotificationService {
   static Future<void> sendNotification(

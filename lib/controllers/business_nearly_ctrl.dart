@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 class BusinessNearlyCtrl extends GetxController {
   final FirebaseApp _app;

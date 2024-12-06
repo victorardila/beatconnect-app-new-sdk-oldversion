@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 class ConnectionCtrl extends GetxController {
   final _pining = Rx<bool>(false);

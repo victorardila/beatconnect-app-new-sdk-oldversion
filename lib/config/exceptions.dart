@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 abstract class HandlerException {
   static void handler(Object e, StackTrace? stackTrace) {

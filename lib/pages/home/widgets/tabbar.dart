@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 class ProfileTabBar extends StatelessWidget {
   const ProfileTabBar({

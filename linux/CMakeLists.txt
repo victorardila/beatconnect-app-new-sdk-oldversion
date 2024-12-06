@@ -4,10 +4,10 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "beatconnect_new_sdk_older_version")
+set(BINARY_NAME "beatconnect_new_sdk_oldversion")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
-set(APPLICATION_ID "com.example.beatconnect_new_sdk_older_version")
+set(APPLICATION_ID "com.example.beatconnect_new_sdk_oldversion")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

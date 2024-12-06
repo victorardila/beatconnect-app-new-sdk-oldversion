@@ -1,4 +1,4 @@
-name: beatconnect_new_sdk_older_version
+name: beatconnect_new_sdk_oldversion
 description: A new Flutter project.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
@@ -9,42 +9,64 @@ environment:
 
 dependencies:
   async: ^2.11.0
-  audioplayers: ^5.1.0
+  audioplayers: ^6.1.0
   cached_network_image: ^3.3.1
-  camera: ^0.10.5+9
-  cloud_firestore: ^4.8.4
+  camera: ^0.11.0+2
+  cloud_firestore: ^5.5.1
   cupertino_icons: ^1.0.2
   dio: ^5.3.2
   equatable: ^2.0.5
-  firebase_app_check: ^0.1.5+2
-  firebase_auth: ^4.7.2
-  firebase_core: ^2.15.0
-  firebase_storage: ^11.2.5
+  firebase_app_check: ^0.3.1+7
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.8.1
+  firebase_storage: ^12.3.7
   flutter:
     sdk: flutter
   flutter_cache_manager: ^3.3.1
-  flutter_keyboard_visibility: ^5.4.1
+  flutter_keyboard_visibility: ^6.0.0
   flutter_material_design_icons: ^1.1.7296
   flutter_native_splash: ^2.3.2
   flutter_staggered_grid_view: ^0.7.0
-  flutter_web_auth_2: ^2.2.1
-  geolocator: ^9.0.2
+  flutter_web_auth_2: ^3.1.2
+  geolocator: ^13.0.2
   get: ^4.6.6
   get_storage: ^2.1.1
   google_maps_flutter: ^2.4.0
   image: ^4.0.15
-  image_picker: ^0.8.7
-  intl: ^0.18.1
+  image_picker: ^1.1.2
+  intl: ^0.19.0
   oauth2_client: ^3.0.0
   timeago: ^3.5.0
   url_launcher: ^6.1.12
   win32: ^5.8.0
 
 dev_dependencies:
-  flutter_launcher_icons: ^0.13.1
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.14.2"
+  # flutter_native_splash: ^2.3.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  remove_alpha_channel_ios: true
+  adaptive_icon_foreground: "assets/logo/logo.png"
+  adaptive_icon_background: "#FFFFFF" # El sistema seleccionará el fondo
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo/logo.png"
 
 flutter:
   assets:

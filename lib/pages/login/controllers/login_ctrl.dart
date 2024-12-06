@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 class LoginCtrl extends GetxController {
   final RxString _email = RxString("");

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_older_version/lib.dart';
+import 'package:beatconnect_new_sdk_oldversion/lib.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -14,7 +14,7 @@ class WelcomePage extends StatelessWidget {
             width: Get.width,
             height: Get.height * 0.5,
             child: Image.asset(
-              "assets/welcome/beatconnect_new_sdk_older_version_welcome_cards.png",
+              "assets/welcome/beatconnect_new_sdk_oldversion_welcome_cards.png",
               fit: BoxFit.cover,
               height: Get.height,
               width: Get.width,

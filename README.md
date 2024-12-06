@@ -138,12 +138,42 @@ rm -rf android
 flutter create .
 ```
 
-### *`Instalar dependencias nuevamente post a la actualizacion del SDK`*
+### *`Actualizar e instalar dependencias nuevamente post a la actualizacion del SDK`*
+
+Para saber si hay paquetes desactualizados del proyecto primero debe ejecutar este comando para saber si hay actualizaciones de los paquetes para la nueva API, esto se hará cone ste comando:
+
+```sh
+flutter pub outdated
+```
+
+#### *IMPORTANTE(RECOMENDADO)*
+
+Este paso se hará solo si hay paquetes desactualizados que el proyecto necesite actualizar para funcionar:
+
+```sh
+flutter pub upgrade --major-versions
+```
 
 Para instalar dependencias del proyecto de flutter lo puede realizar con el siguiente comando.
 
 ```sh
 flutter pub get
+```
+
+## `Correr el proyecto (Normal)`
+
+Ejecuta el siguiente comando para correr la aplicacion de forma normal:
+
+```sh
+flutter run
+```
+
+### `Correr el proyecto (Manejo de errores)`
+
+Para manejar los logs de errores por consola y saber si se esta generando algun punto de inflexión en el proyecto:
+
+```sh
+flutter run --verbose
 ```
 
 ### Resultados
