@@ -14,7 +14,7 @@ class WelcomePage extends StatelessWidget {
             width: Get.width,
             height: Get.height * 0.5,
             child: Image.asset(
-              "assets/welcome/beatconnect_new_sdk_oldversion_welcome_cards.png",
+              "assets/welcome/music_concept_app_welcome_cards.png",
               fit: BoxFit.cover,
               height: Get.height,
               width: Get.width,
