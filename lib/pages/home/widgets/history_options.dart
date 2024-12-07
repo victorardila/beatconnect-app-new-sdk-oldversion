@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 class HistoryOptions extends StatelessWidget {
   final History history;

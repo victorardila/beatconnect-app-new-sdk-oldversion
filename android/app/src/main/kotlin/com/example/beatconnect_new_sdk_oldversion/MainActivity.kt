@@ -1,4 +1,4 @@
-package com.example.beatconnect_new_sdk_oldversion
+package com.example.beatconnect_launch_mvp
 
 import io.flutter.embedding.android.FlutterActivity
 

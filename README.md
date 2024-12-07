@@ -1,4 +1,4 @@
-# Nuevo SDK de BeatConnect Versión `Antigua`
+# Nuevo SDK de BeatConnect Versión `MVP(Producto Minimo Viable)`
 
 Aplicacion red social para conectar usaurios con la misma preferncia musical para parchear en establecimientos publicos de musica nocturna
 

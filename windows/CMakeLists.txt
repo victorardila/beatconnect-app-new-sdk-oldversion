@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(beatconnect_new_sdk_oldversion LANGUAGES CXX)
+project(beatconnect_launch_mvp LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "beatconnect_new_sdk_oldversion")
+set(BINARY_NAME "beatconnect_launch_mvp")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

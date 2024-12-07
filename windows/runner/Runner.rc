@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "beatconnect_new_sdk_oldversion" "\0"
+            VALUE "FileDescription", "beatconnect_launch_mvp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "beatconnect_new_sdk_oldversion" "\0"
+            VALUE "InternalName", "beatconnect_launch_mvp" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "beatconnect_new_sdk_oldversion.exe" "\0"
-            VALUE "ProductName", "beatconnect_new_sdk_oldversion" "\0"
+            VALUE "OriginalFilename", "beatconnect_launch_mvp.exe" "\0"
+            VALUE "ProductName", "beatconnect_launch_mvp" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

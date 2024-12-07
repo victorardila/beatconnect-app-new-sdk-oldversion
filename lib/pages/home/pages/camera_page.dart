@@ -1,7 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 class HistoryCameraView extends StatelessWidget {
   const HistoryCameraView({super.key});

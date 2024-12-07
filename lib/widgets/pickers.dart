@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 class ImagePicker extends StatefulWidget {
   final void Function(Uint8List? image)? onImageSelected;

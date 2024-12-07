@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 abstract class EventService {
   static Future<void> createEvent({

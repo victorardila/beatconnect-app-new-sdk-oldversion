@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 abstract class ChatService {
   static Future<String> createConversation({

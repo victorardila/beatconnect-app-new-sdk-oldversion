@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:beatconnect_new_sdk_oldversion/lib.dart';
+import 'package:beatconnect_launch_mvp/lib.dart';
 
 class BackgroundConfigPage extends StatelessWidget {
   const BackgroundConfigPage({super.key});
