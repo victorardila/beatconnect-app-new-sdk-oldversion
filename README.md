@@ -1,6 +1,6 @@
 # Nuevo SDK de BeatConnect Versión `MVP(Producto Minimo Viable)`
 
-Aplicacion red social para conectar usaurios con la misma preferncia musical para parchear en establecimientos publicos de musica nocturna
+Aplicación inicial de BeatConnect, una red social que conecta usuarios con gustos musicales similares para explorar establecimientos nocturnos. Incluye un módulo básico de ubicación para encontrar sitios en el área metropolitana. Versión MVP diseñada para validación de concepto.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/33d03376-f4b0-4655-a650-2d0aed790f76" alt="logo" width="500"/>
