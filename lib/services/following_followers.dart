@@ -107,19 +107,24 @@ abstract class FollowingFollowersServices {
   static Stream<List<String>> getFriends({required String accountRef}) {
     return FirebaseFirestore.instance
         .collection("follows")
-        .where("followingRef", isEqualTo: accountRef)
+        .where("followerRef", isEqualTo: accountRef)
         .snapshots()
         .asyncMap((event) async {
-      var friends = <FdSnapshot>[];
-      for (var item in event.docs) {
-        var isAFriend = await accountIsFriendFuture(
-            accountRef: item.data()['followingRef'],
-            userRef: item.data()['followerRef']);
-        if (isAFriend) {
-          friends.add(item);
-        }
-      }
-      return friends.map((e) => e.data()!['followerRef'] as String).toList();
+      // Obtener todos los seguidores
+      var followingRefs =
+          event.docs.map((e) => e.data()['followingRef'] as String).toList();
+
+      // Hacer una sola consulta para obtener amigos
+      var friendsQuery = await FirebaseFirestore.instance
+          .collection("follows")
+          .where("followingRef", whereIn: followingRefs)
+          .where("followerRef", isEqualTo: accountRef)
+          .get();
+
+      // Asegurarse de que estamos devolviendo una lista de String
+      return friendsQuery.docs
+          .map((doc) => doc.data()['followerRef'] as String)
+          .toList();
     });
   }
 
